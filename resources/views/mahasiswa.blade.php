@@ -169,7 +169,7 @@
     </div>
 
     <div class="add">
-        <a href="/add" class="add-button">+ Mahasiswa Baru</a>
+        <a href="/mahasiswa/add" class="add-button">+ Mahasiswa Baru</a>
         <a href="/mahasiswa/cetak_pdf" class="add-button" target="_blank">Download PDF</a>
         <a href="/mahasiswa/cetak_excel" class="add-button" target="_blank">Download Exel</a>
     </div>
