@@ -4,8 +4,9 @@ namespace App\Exports;
 
 use App\Models\Mahasiswa;
 use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsite\Excel\Concerns\WithHeadings;
 
-class MahasiswaExport implements FromCollection
+class MahasiswaExport implements FromCollection, WithHeadings
 {
     /**
     * @return \Illuminate\Support\Collection
@@ -18,11 +19,12 @@ class MahasiswaExport implements FromCollection
     public function headings(): array
     {
         return [
-            'No',
             'NIM',
             'Nama',
             'Alamat',
-            'Nomer HP'
+            'Nomer HP',
+            "Created At",
+            "Updated At",
         ];
     }
 }
