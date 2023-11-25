@@ -41,8 +41,8 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nim`, `nama`, `alamat`, `hp`, `created_at`, `updated_at`) VALUES
-(220103001, 'Muhammad Iqbal Afnan', 'Grogol', '088238159614', '2023-10-23 02:44:46', '2023-10-23 02:44:46'),
-(220103002, 'Lintang Fais', 'Karanganyar', '088239932032', '2023-10-23 02:45:15', '2023-10-23 02:45:38');
+(220103001, 'Fulana', 'Jakarta', '08215564851', '2023-10-23 02:44:46', '2023-10-23 02:44:46'),
+
 
 --
 -- Indexes for dumped tables
